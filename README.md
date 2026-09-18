@@ -9,6 +9,7 @@ Claude Code, Codex, MiniMax and any OpenAI- or Anthropic-compatible API, side by
 Switch models mid-conversation, keep one skill library for every agent, and see what every account costs in one place.
 
 [![VS Code](https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.90-8963fb?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+[![Marketplace](https://img.shields.io/visual-studio-marketplace/v/Sayed.polymoly?color=4a6afb&label=marketplace&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=Sayed.polymoly)
 [![Release](https://img.shields.io/github/v/release/sayedmahmod/polymoly?color=4a6afb&label=release)](https://github.com/sayedmahmod/polymoly/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-30c7fd)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](tsconfig.json)
@@ -47,7 +48,14 @@ Every coding agent ships its own UI, its own history and its own limits. When on
 
 ## Installation
 
-### Option A: download the release (recommended)
+### Option A: install from the Marketplace (recommended)
+
+Search **PolyMoly** in the VS Code Extensions view (`⇧⌘X` / `Ctrl+Shift+X`) and click **Install**, or install directly:
+
+- [Open in Marketplace](https://marketplace.visualstudio.com/items?itemName=Sayed.polymoly)
+- From a terminal: `code --install-extension Sayed.polymoly`
+
+### Option B: download the release
 
 1. Download `polymoly-<version>.vsix` from the [latest release](https://github.com/sayedmahmod/polymoly/releases/latest).
 2. Install it in one of two ways:
@@ -60,7 +68,7 @@ Every coding agent ships its own UI, its own history and its own limits. When on
 
 The same `.vsix` works in Cursor, Windsurf and VSCodium (`cursor --install-extension …`, and so on).
 
-### Option B: build from source
+### Option C: build from source
 
 Requires Node.js 20 or newer.
 

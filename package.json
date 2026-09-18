@@ -1,9 +1,9 @@
 {
-  "name": "polyagent",
+  "name": "polymoly",
   "displayName": "PolyMoly",
   "description": "%description%",
   "version": "0.1.0",
-  "publisher": "local",
+  "publisher": "Sayed",
   "license": "MIT",
   "repository": {
     "type": "git",
