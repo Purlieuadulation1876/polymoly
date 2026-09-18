@@ -1,0 +1,21 @@
+{
+  "description": "Un seul chat pour tous vos agents de code : Claude Code, Codex, MiniMax et toute API compatible OpenAI ou Anthropic.",
+  "cmd.newChat": "PolyMoly : Nouveau chat",
+  "cmd.openUsage": "PolyMoly : Comptes et utilisation",
+  "cmd.setApiKey": "PolyMoly : Définir la clé API du fournisseur",
+  "cmd.setAdminKey": "PolyMoly : Définir la clé admin d’utilisation",
+  "cmd.clearKeys": "PolyMoly : Supprimer les clés enregistrées d’un fournisseur",
+  "cmd.editProviders": "PolyMoly : Ouvrir la configuration des fournisseurs",
+  "cfg.language": "Langue de l’interface PolyMoly. `auto` suit la langue d’affichage de VS Code.",
+  "cfg.providers": "Fournisseurs personnalisés. Chaque entrée remplace un fournisseur intégré ayant le même `id` (fusion superficielle). Voir le README pour le schéma.",
+  "cfg.mcpServers": "Serveurs MCP chargés par chaque fournisseur CLI (Claude Code, Codex). Même schéma que `.mcp.json` : `{ \"name\": { \"command\": \"npx\", \"args\": [] } }` ou `{ \"name\": { \"type\": \"http\", \"url\": \"https://…\" } }`.",
+  "cfg.skillsDir": "Dossier des skills partagées (un sous-dossier avec `SKILL.md` par skill). Vide : `~/.polyagent/skills`. Tous les fournisseurs utilisent le même dossier.",
+  "cfg.skillsDisabled": "Noms des skills installées qui sont désactivées.",
+  "cfg.defaultProvider": "Identifiant du fournisseur présélectionné dans un nouveau chat.",
+  "cfg.fallbackOrder": "Ordre de bascule quand un fournisseur atteint sa limite en plein chat. Entrées `provider` ou `provider/model`, p. ex. `[\"codex/gpt-5.6-sol\", \"anthropic-api/claude-opus-5\"]`. Vide : un modèle équivalent d’un autre fournisseur est choisi automatiquement.",
+  "cfg.claudePermission": "`--permission-mode` pour la CLI Claude. `acceptEdits` autorise les modifications de fichiers sans demander, `bypassPermissions` autorise aussi les commandes shell sans demander. `default` bloque la plupart des outils en mode headless.",
+  "cfg.codexSandbox": "`--sandbox` pour `codex exec`. `workspace-write` autorise l’écriture dans le workspace.",
+  "cfg.usageDays": "Nombre de jours interrogés par la vue « Comptes et utilisation ».",
+  "cfg.usageRefresh": "Recharger l’utilisation automatiquement toutes les N minutes. 0 = désactivé.",
+  "cfg.languageAuto": "Suivre la langue de VS Code"
+}

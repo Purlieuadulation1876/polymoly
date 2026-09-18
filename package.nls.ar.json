@@ -1,0 +1,21 @@
+{
+  "description": "محادثة واحدة لكل وكلاء البرمجة: Claude Code وCodex وMiniMax وأي واجهة API متوافقة مع OpenAI أو Anthropic.",
+  "cmd.newChat": "PolyMoly: محادثة جديدة",
+  "cmd.openUsage": "PolyMoly: الحسابات والاستخدام",
+  "cmd.setApiKey": "PolyMoly: ضبط مفتاح API للمزوّد",
+  "cmd.setAdminKey": "PolyMoly: ضبط مفتاح إدارة الاستخدام للمزوّد",
+  "cmd.clearKeys": "PolyMoly: حذف المفاتيح المحفوظة لمزوّد",
+  "cmd.editProviders": "PolyMoly: فتح إعدادات المزوّدين",
+  "cfg.language": "لغة واجهة PolyMoly. ‏`auto` يتبع لغة عرض VS Code.",
+  "cfg.providers": "مزوّدات مخصصة. كل إدخال يستبدل مزوّدًا مدمجًا له نفس `id` (دمج سطحي). راجع README للمخطط.",
+  "cfg.mcpServers": "خوادم MCP التي يحمّلها كل مزوّد CLI ‏(Claude Code وCodex). نفس مخطط `.mcp.json`: ‏`{ \"name\": { \"command\": \"npx\", \"args\": [] } }` أو `{ \"name\": { \"type\": \"http\", \"url\": \"https://…\" } }`.",
+  "cfg.skillsDir": "مجلد المهارات المشتركة (مجلد فرعي يحوي `SKILL.md` لكل مهارة). فارغ: `~/.polyagent/skills`. تستخدم جميع المزوّدات المجلد نفسه.",
+  "cfg.skillsDisabled": "أسماء المهارات المثبّتة المعطّلة.",
+  "cfg.defaultProvider": "معرّف المزوّد المحدد مسبقًا في محادثة جديدة.",
+  "cfg.fallbackOrder": "ترتيب تبديل النماذج عندما يبلغ مزوّد حدّه أثناء المحادثة. الإدخالات `provider` أو `provider/model`، مثلًا `[\"codex/gpt-5.6-sol\", \"anthropic-api/claude-opus-5\"]`. فارغ: يُختار تلقائيًا نموذج مكافئ من مزوّد آخر.",
+  "cfg.claudePermission": "`--permission-mode` لأداة Claude CLI. ‏`acceptEdits` يسمح بتعديل الملفات دون سؤال، و`bypassPermissions` يسمح أيضًا بأوامر الطرفية دون سؤال. ‏`default` يحظر معظم الأدوات في الوضع دون واجهة.",
+  "cfg.codexSandbox": "`--sandbox` لـ `codex exec`. ‏`workspace-write` يسمح بالكتابة داخل مساحة العمل.",
+  "cfg.usageDays": "عدد الأيام التي يستعلم عنها عرض «الحسابات والاستخدام».",
+  "cfg.usageRefresh": "إعادة تحميل الاستخدام تلقائيًا كل N دقيقة. ‏0 = إيقاف.",
+  "cfg.languageAuto": "اتباع لغة عرض VS Code"
+}

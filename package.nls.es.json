@@ -1,0 +1,21 @@
+{
+  "description": "Un chat para todos tus agentes de código: Claude Code, Codex, MiniMax y cualquier API compatible con OpenAI o Anthropic.",
+  "cmd.newChat": "PolyMoly: Nuevo chat",
+  "cmd.openUsage": "PolyMoly: Cuentas y uso",
+  "cmd.setApiKey": "PolyMoly: Definir clave API del proveedor",
+  "cmd.setAdminKey": "PolyMoly: Definir clave de administración de uso",
+  "cmd.clearKeys": "PolyMoly: Eliminar las claves guardadas de un proveedor",
+  "cmd.editProviders": "PolyMoly: Abrir configuración de proveedores",
+  "cfg.language": "Idioma de la interfaz de PolyMoly. `auto` sigue el idioma de VS Code.",
+  "cfg.providers": "Proveedores propios. Cada entrada sobrescribe un proveedor integrado con el mismo `id` (fusión superficial). Consulta el README para el esquema.",
+  "cfg.mcpServers": "Servidores MCP que carga cada proveedor CLI (Claude Code, Codex). Mismo esquema que `.mcp.json`: `{ \"name\": { \"command\": \"npx\", \"args\": [] } }` o `{ \"name\": { \"type\": \"http\", \"url\": \"https://…\" } }`.",
+  "cfg.skillsDir": "Carpeta con las skills compartidas (una subcarpeta con `SKILL.md` por skill). Vacío: `~/.polyagent/skills`. Todos los proveedores usan la misma carpeta.",
+  "cfg.skillsDisabled": "Nombres de las skills instaladas que están desactivadas.",
+  "cfg.defaultProvider": "ID del proveedor preseleccionado en un chat nuevo.",
+  "cfg.fallbackOrder": "Orden para cambiar de modelo cuando un proveedor alcanza su límite en mitad del chat. Entradas `provider` o `provider/model`, p. ej. `[\"codex/gpt-5.6-sol\", \"anthropic-api/claude-opus-5\"]`. Vacío: se elige automáticamente un modelo equivalente de otro proveedor.",
+  "cfg.claudePermission": "`--permission-mode` para la CLI de Claude. `acceptEdits` permite editar archivos sin preguntar; `bypassPermissions` permite además comandos de shell sin preguntar. `default` bloquea la mayoría de herramientas sin interfaz.",
+  "cfg.codexSandbox": "`--sandbox` para `codex exec`. `workspace-write` permite escribir dentro del workspace.",
+  "cfg.usageDays": "Número de días que consulta la vista «Cuentas y uso».",
+  "cfg.usageRefresh": "Recargar el uso automáticamente cada N minutos. 0 = desactivado.",
+  "cfg.languageAuto": "Seguir el idioma de VS Code"
+}

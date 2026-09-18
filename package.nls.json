@@ -1,0 +1,21 @@
+{
+  "description": "One chat for all your coding agents: Claude Code, Codex, MiniMax and any OpenAI- or Anthropic-compatible API.",
+  "cmd.newChat": "PolyMoly: New chat",
+  "cmd.openUsage": "PolyMoly: Accounts & usage",
+  "cmd.setApiKey": "PolyMoly: Set API key for provider",
+  "cmd.setAdminKey": "PolyMoly: Set usage admin key for provider",
+  "cmd.clearKeys": "PolyMoly: Delete a provider’s saved keys",
+  "cmd.editProviders": "PolyMoly: Open provider configuration",
+  "cfg.language": "Language of the PolyMoly interface. `auto` follows the VS Code display language.",
+  "cfg.providers": "Custom providers. Each entry overrides a built-in provider with the same `id` (shallow merge). See the README for the schema.",
+  "cfg.mcpServers": "MCP servers loaded by every CLI provider (Claude Code, Codex). Same schema as `.mcp.json`: `{ \"name\": { \"command\": \"npx\", \"args\": [] } }` or `{ \"name\": { \"type\": \"http\", \"url\": \"https://…\" } }`.",
+  "cfg.skillsDir": "Folder with the shared skills (one subfolder with a `SKILL.md` per skill). Empty: `~/.polyagent/skills`. All providers use the same folder.",
+  "cfg.skillsDisabled": "Names of installed skills that are switched off.",
+  "cfg.defaultProvider": "Provider ID preselected in a new chat.",
+  "cfg.fallbackOrder": "Order for switching models when a provider hits its limit mid-chat. Entries `provider` or `provider/model`, e.g. `[\"codex/gpt-5.6-sol\", \"anthropic-api/claude-opus-5\"]`. Empty: an equivalent model from another provider is chosen automatically.",
+  "cfg.claudePermission": "`--permission-mode` for the Claude CLI. `acceptEdits` allows file edits without asking, `bypassPermissions` also allows shell commands without asking. `default` blocks most tools when running headless.",
+  "cfg.codexSandbox": "`--sandbox` for `codex exec`. `workspace-write` allows writing inside the workspace.",
+  "cfg.usageDays": "Number of days the “Accounts & usage” view queries.",
+  "cfg.usageRefresh": "Reload usage automatically every N minutes. 0 = off.",
+  "cfg.languageAuto": "Follow the VS Code display language"
+}
